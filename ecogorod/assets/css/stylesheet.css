@@ -1,0 +1,137 @@
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: green;
+    border-radius: 20px;
+    margin-top: -25px;
+    }
+
+.navbar .container {    
+    width: auto ;
+    height: 120%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    color: #fff;
+    margin-left: 30px;
+}
+.navbar-brand img{
+    width: 147px;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding: 50px;
+}
+
+.navbar-menu li{
+    display: inline-block;
+    
+}
+
+.navbar-menu li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 50px;
+}
+
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+
+
+
+.calback {
+    margin-right: 300px;
+    margin-left: -100px;
+    background-color: #fff;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
+}
+
+.calback a {
+    color: green;
+    text-decoration: none;
+}
+
+.cloud1 {
+    margin-left: -150px;
+    margin-top: 30px;
+}
+
+.cloud2 {
+    margin-top: -100px;
+    margin-left: -400px;
+}
+
+.cloud3 {
+    margin-left: -50px;
+    margin-top: -120px;
+    margin-left: -600px;
+}
+
+.cloud4 {
+    margin-left: -50px;
+    margin-top: -120px;
+    margin-left: -800px;
+}
+
+.cloud5 {
+    margin-top: 20px;
+}
+
+.cloud6 {
+    margin-left: -350px;
+    margin-top: -100px;
+}
+
+.cloud7 {
+    margin-top: -100px;
+    margin-left: -540px;
+}
+
+.cloud8  {
+    margin-top: -100px;
+    margin-left: -740px;
+}
+
+.cloud9  {
+    margin-top: -100px;
+    margin-left: -940px;
+}
+
+.cloud10  {
+    margin-top: -100px;
+    margin-left: -1140px;
+}
+
+.cloud11  {
+    margin-top: -170px;
+    margin-left: -800px;
+}
+.btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+    background-color: green;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
+    font-size: 36px;
+
+}
