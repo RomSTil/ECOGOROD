@@ -1,7 +1,6 @@
 .navbar {
     width: 100%;
     height: 70px;
-    background-color: green;
     border-radius: 20px;
     margin-top: -25px;
     }
@@ -18,8 +17,8 @@
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
-    color: #fff;
-    margin-left: 30px;
+    color: #000;
+    margin-left: 400px;
 }
 .navbar-brand img{
     width: 147px;
@@ -34,104 +33,51 @@
 
 .navbar-menu li{
     display: inline-block;
-    
 }
 
 .navbar-menu li a{
     display: inline-block;
     text-decoration: none;
-    color: #fff;
+    color: #000;
     margin-left: 50px;
 }
 
 .navbar-wrap {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row nowrap;   
+} 
+
+.btn-sign {
+    border-radius: 50px;
+    border: 1px solid #000;
+    padding: 5px 10px 5px 10px;
+    margin-right: 55px;
+    font-size: 16px;
+}
+
+.btn-sign a {
+    text-decoration: none;
+    color: #000;
     
 }
 
-
-
-.calback {
-    margin-right: 300px;
-    margin-left: -100px;
-    background-color: #fff;
-    padding: 10px 5px 10px 5px;
-    border-radius: 10px;
+.btn-reg {
+    margin-right: 120px;
+    border-radius: 50px;
+    background: #B3F79A;
+    padding: 5px 10px 5px 10px; 
 }
 
-.calback a {
-    color: green;
+.btn-reg a {
+    font-size: 15px;
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
     text-decoration: none;
 }
 
-.cloud1 {
-    margin-left: -150px;
-    margin-top: 30px;
-}
 
-.cloud2 {
-    margin-top: -100px;
-    margin-left: -400px;
-}
 
-.cloud3 {
-    margin-left: -50px;
-    margin-top: -120px;
-    margin-left: -600px;
-}
-
-.cloud4 {
-    margin-left: -50px;
-    margin-top: -120px;
-    margin-left: -800px;
-}
-
-.cloud5 {
-    margin-top: 20px;
-}
-
-.cloud6 {
-    margin-left: -350px;
-    margin-top: -100px;
-}
-
-.cloud7 {
-    margin-top: -100px;
-    margin-left: -540px;
-}
-
-.cloud8  {
-    margin-top: -100px;
-    margin-left: -740px;
-}
-
-.cloud9  {
-    margin-top: -100px;
-    margin-left: -940px;
-}
-
-.cloud10  {
-    margin-top: -100px;
-    margin-left: -1140px;
-}
-
-.cloud11  {
-    margin-top: -170px;
-    margin-left: -800px;
-}
-.btn {
-    width: 100%;
-    text-align: center;
-    margin-top: 40px;
-}
-
-.btn a {
-    text-decoration: none;
-    color: #fff;
-    background-color: green;
-    padding: 10px 5px 10px 5px;
-    border-radius: 10px;
-    font-size: 36px;
-
-}
