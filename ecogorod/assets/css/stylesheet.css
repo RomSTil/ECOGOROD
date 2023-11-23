@@ -1,3 +1,7 @@
+html body {
+    font-family: 'Comfortaa', sans-serif;
+}
+
 .navbar {
     width: 100%;
     height: 70px;
@@ -8,7 +12,7 @@
 .navbar .container {    
     width: auto ;
     height: 120%;
-    display: flex;
+    display: flex   ;
     justify-content: space-between;
     align-items: center;
 }
@@ -18,17 +22,27 @@
     font-weight: 700;
     font-size: 26px;
     color: #000;
-    margin-left: 400px;
+    margin-left: 250px;
 }
-.navbar-brand img{
-    width: 147px;
+
+.navbar-brand-logo-container {
+    width: 70px;
+    height: 100px;
 }
+
+
+.navbar-brand-logo{
+    margin-top: 26px   ;
+    width: 70px;
+    height: 70px;
+}
+
 
 .navbar-menu {
     list-style-type: none;
     padding-left: 0;
     padding-bottom: 0;
-    padding: 50px;
+    padding: 20px;
 }
 
 .navbar-menu li{
@@ -36,11 +50,42 @@
 }
 
 .navbar-menu li a{
+    opacity: .7;
     display: inline-block;
     text-decoration: none;
     color: #000;
     margin-left: 50px;
 }
+.navbar-menu li a {
+	position: relative;
+	color: #000; /*задаём цвет ссылки*/
+	cursor: pointer;
+	line-height: 1; /*задаём высоту строки*/
+    opacity: .7;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    margin-left: 50px;
+
+}
+.navbar-menu li a:after {
+	display: block;
+	position: absolute;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #000; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out; /*задаём время анимации*/
+    opacity: .7;
+}
+
+.navbar-menu li a:hover:after,
+.navbar-menu li a:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+
 
 .navbar-wrap {
     display: flex;
@@ -53,6 +98,9 @@
     padding: 5px 10px 5px 10px;
     margin-right: 55px;
     font-size: 16px;
+}
+.btn-sign:hover {
+    transform-origin: 104%;
 }
 
 .btn-sign a {
@@ -74,10 +122,61 @@
     font-family: Comfortaa;
     font-size: 15px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 250;
     line-height: normal;
     text-decoration: none;
 }
+
+.header {
+    width: 100%;
+    height: 1080px;
+    background: no-repeat;
+}
+
+.header img {
+    width: 100%;
+}
+
+.header-content {
+    margin-left: 250px;
+    width: 619px;
+    height: 329px;
+    flex-shrink: 0;
+}
+
+.header-content h1 {
+    font-size: 76px;
+    font-weight: 250;
+}
+
+.header-content h1{
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: normal;
+}
+
+.header-content p {
+    margin-top: -40px;
+    font-size: 70px;
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: normal;
+}
+
+.header-img img{
+    width: 489px;
+    height: 600px;  
+    margin-left: 900px;
+    margin-top: -330px;
+}
+
+
 
 
 
